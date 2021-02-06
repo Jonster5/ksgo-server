@@ -7,6 +7,7 @@ export default {
 	input: './src/index.ts',
 	output: [
 		{
+			sourcemap: true,
 			file: 'build/debug/index.js',
 			format: 'cjs',
 		},
