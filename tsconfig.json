@@ -1,19 +1,19 @@
 {
-    "compilerOptions": {
-      "declaration": true,
-      "declarationDir": "./dist",
-      "sourceMap": true,
-      "module": "es6",
-      "moduleResolution": "node",
-      "resolveJsonModule": true,
-      "allowSyntheticDefaultImports": true,
-      "noImplicitAny": true,
-      "outDir": "./dist",
-      "target": "ES6",
-      "newLine": "crlf"
-    },
-    "include": [
-      "./src/**/*"
-    ],
-    "exclude": ["./node_modules"]
-  }
+  "compilerOptions": {
+    "declaration": true,
+    "declarationDir": "./build/types",
+    "sourceMap": true,
+    "module": "es6",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "outDir": "./build",
+    "target": "ES6",
+    "newLine": "crlf"
+  },
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": ["./node_modules"]
+}

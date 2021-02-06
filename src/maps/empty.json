@@ -1,0 +1,17 @@
+{
+	"version": 1.0,
+	"name": "empty",
+	"size": 1500,
+	"friction": 0.999,
+	"stars": [],
+	"planets": [],
+	"asteroids": [],
+	"spawn": [
+		{
+			"x": 0,
+			"y": 0,
+			"width": 1500,
+			"height": 750
+		}
+	]
+}

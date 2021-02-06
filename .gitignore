@@ -1,2 +1,6 @@
 /node_modules
-/build
+
+/build/debug
+/build/prod/*.ts
+/build/prod/*.es.js
+/build/types
